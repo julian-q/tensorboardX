@@ -7,7 +7,7 @@ name = "tensorboardX"
 dynamic = ["version", "readme"]
 description = "TensorBoardX lets you watch Tensors Flow without Tensorflow"
 requires-python = ">=3.9"
-license ="MIT"
+license = { text = "MIT" }
 authors = [
     {name = "Tzu-Wei Huang", email = "huang.dexter@gmail.com"}
 ]
@@ -96,4 +96,3 @@ select = [
     "I",
 ]
 ignore = ["F401", "E501", "E721", "E741"]
-
